@@ -1,0 +1,27 @@
+.types {
+    min-height: 100vh;
+    min-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.type {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.type-name {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.type-logo {
+    width: 80%;
+}
